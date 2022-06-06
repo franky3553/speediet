@@ -1,7 +1,7 @@
 
 // - - - - - - - - - - - - setPlates Functions - - - - - - - - - - - -
 
-function createFunction1(event){
+function setStarter1(event){
 
    if (event.keyCode == 53) {
       let starter1 = document.getElementById("starter1").value; // - - - get starter1 text
@@ -9,7 +9,7 @@ function createFunction1(event){
    }
 }
 
-function createFunction2(event){
+function setStarter2(event){
 
    if (event.keyCode == 54) {
       let starter2 = document.getElementById("starter2").value;
@@ -17,7 +17,7 @@ function createFunction2(event){
    }
 }
 
-function createFunction3(event){
+function setMain1(event){
 
    if (event.keyCode == 53) {
       let main1 = document.getElementById("main1").value;
@@ -25,7 +25,7 @@ function createFunction3(event){
    }
 }
 
-function createFunction4(event){
+function setMain2(event){
 
    if (event.keyCode == 54) {
       let main2 = document.getElementById("main2").value;
@@ -33,7 +33,7 @@ function createFunction4(event){
    }
 }
 
-function createFunction5(event){
+function setDessert1(event){
 
    if (event.keyCode == 53) {
       let dessert1 = document.getElementById("dessert1").value;
@@ -42,7 +42,7 @@ function createFunction5(event){
 }
 
 
-function createFunction6(event){
+function setDessert2(event){
 
    if (event.keyCode == 54) {
       let dessert2 = document.getElementById("dessert2").value;
@@ -52,7 +52,7 @@ function createFunction6(event){
 
 // - - - - - - - - - - - - global Functions - - - - - - - - - - - -
 
-function createFunction7(event){
+function globalDelete(event){
 
    if (event.keyCode == 55) {
       document.getElementById(otroA).innerHTML = "   ";
@@ -62,7 +62,7 @@ function createFunction7(event){
    }
 }
 
-function createFunction8(event){
+function globalAbsolute(event){
 
    if (event.keyCode == 56) {
       document.getElementById(otroA).innerHTML = "Absolute";
@@ -72,7 +72,7 @@ function createFunction8(event){
    }
 }
 
-function createFunction9(event){
+function globalTurmix(event){
 
    if (event.keyCode == 57) {
       document.getElementById(otroA).innerHTML = "Turmix";
@@ -91,12 +91,12 @@ function pressReaction1A(event) {
    otroB = "hab1platB";
    otroC = "hab1platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-   createFunction7(event);
-   createFunction8(event);
-   createFunction9(event);
+   globalDelete(event);
+   globalAbsolute(event);
+   globalTurmix(event);
 }
 
 function pressReaction1B(event) {
@@ -106,12 +106,12 @@ function pressReaction1B(event) {
    otroB = "hab1platB";
    otroC = "hab1platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-   createFunction7(event);
-   createFunction8(event);
-   createFunction9(event);
+   globalDelete(event);
+   globalAbsolute(event);
+   globalTurmix(event);
 }
 
 function pressReaction1C(event) {
@@ -121,12 +121,12 @@ function pressReaction1C(event) {
    otroB = "hab1platB";
    otroC = "hab1platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-   createFunction7(event);
-   createFunction8(event);
-   createFunction9(event);
+   globalDelete(event);
+   globalAbsolute(event);
+   globalTurmix(event);
 }
 
 
@@ -138,12 +138,12 @@ function pressReaction2A(event) {
    otroB = "hab2platB";
    otroC = "hab2platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction2B(event) {
@@ -153,12 +153,12 @@ function pressReaction2B(event) {
    otroB = "hab2platB";
    otroC = "hab2platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction2C(event) {
@@ -168,12 +168,12 @@ function pressReaction2C(event) {
    otroB = "hab2platB";
    otroC = "hab2platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -185,12 +185,12 @@ function pressReaction3A(event) {
    otroB = "hab3platB";
    otroC = "hab3platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction3B(event) {
@@ -200,12 +200,12 @@ function pressReaction3B(event) {
    otroB = "hab3platB";
    otroC = "hab3platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction3C(event) {
@@ -215,12 +215,12 @@ function pressReaction3C(event) {
    otroB = "hab3platB";
    otroC = "hab3platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -232,12 +232,12 @@ function pressReaction4A(event) {
    otroB = "hab4platB";
    otroC = "hab4platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction4B(event) {
@@ -247,12 +247,12 @@ function pressReaction4B(event) {
    otroB = "hab4platB";
    otroC = "hab4platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction4C(event) {
@@ -263,12 +263,12 @@ function pressReaction4C(event) {
    otroC = "hab4platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -280,12 +280,12 @@ function pressReaction5A(event) {
    otroB = "hab5platB";
    otroC = "hab5platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction5B(event) {
@@ -295,12 +295,12 @@ function pressReaction5B(event) {
    otroB = "hab5platB";
    otroC = "hab5platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction5C(event) {
@@ -310,12 +310,12 @@ function pressReaction5C(event) {
    otroB = "hab5platB";
    otroC = "hab5platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 // - - - - - - - - - - - - Functions ROW 6/10 - - - - - - - - - - - -
@@ -327,12 +327,12 @@ function pressReaction6A(event) {
    otroB = "hab6platB";
    otroC = "hab6platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction6B(event) {
@@ -342,12 +342,12 @@ function pressReaction6B(event) {
    otroB = "hab6platB";
    otroC = "hab6platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction6C(event) {
@@ -357,12 +357,12 @@ function pressReaction6C(event) {
    otroB = "hab6platB";
    otroC = "hab6platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -374,12 +374,12 @@ function pressReaction7A(event) {
    otroB = "hab7platB";
    otroC = "hab7platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction7B(event) {
@@ -390,12 +390,12 @@ function pressReaction7B(event) {
    otroC = "hab7platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction7C(event) {
@@ -406,12 +406,12 @@ function pressReaction7C(event) {
    otroC = "hab7platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -423,12 +423,12 @@ function pressReaction8A(event) {
    otroB = "hab8platB";
    otroC = "hab8platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction8B(event) {
@@ -438,12 +438,12 @@ function pressReaction8B(event) {
    otroB = "hab8platB";
    otroC = "hab8platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction8C(event) {
@@ -453,12 +453,12 @@ function pressReaction8C(event) {
    otroB = "hab8platB";
    otroC = "hab8platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
    
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -470,12 +470,12 @@ function pressReaction9A(event) {
    otroB = "hab9platB";
    otroC = "hab9platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction9B(event) {
@@ -485,12 +485,12 @@ function pressReaction9B(event) {
    otroB = "hab9platB";
    otroC = "hab9platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction9C(event) {
@@ -501,12 +501,12 @@ function pressReaction9C(event) {
    otroC = "hab9platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -518,12 +518,12 @@ function pressReaction10A(event) {
    otroB = "hab10platB";
    otroC = "hab10platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction10B(event) {
@@ -534,12 +534,12 @@ function pressReaction10B(event) {
    otroC = "hab10platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction10C(event) {
@@ -550,12 +550,12 @@ function pressReaction10C(event) {
    otroC = "hab10platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 // - - - - - - - - - - - - Functions ROW 11/15 - - - - - - - - - - - -
@@ -567,12 +567,12 @@ function pressReaction11A(event) {
    otroB = "hab11platB";
    otroC = "hab11platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction11B(event) {
@@ -583,12 +583,12 @@ function pressReaction11B(event) {
    otroC = "hab11platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction11C(event) {
@@ -599,12 +599,12 @@ function pressReaction11C(event) {
    otroC = "hab11platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -616,12 +616,12 @@ function pressReaction12A(event) {
    otroB = "hab12platB";
    otroC = "hab12platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction12B(event) {
@@ -632,12 +632,12 @@ function pressReaction12B(event) {
    otroC = "hab12platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction12C(event) {
@@ -647,12 +647,12 @@ function pressReaction12C(event) {
    otroB = "hab12platB";
    otroC = "hab12platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -664,12 +664,12 @@ function pressReaction13A(event) {
    otroB = "hab13platB";
    otroC = "hab13platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction13B(event) {
@@ -680,12 +680,12 @@ function pressReaction13B(event) {
    otroC = "hab13platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction13C(event) {
@@ -696,12 +696,12 @@ function pressReaction13C(event) {
    otroC = "hab13platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -713,12 +713,12 @@ function pressReaction14A(event) {
    otroB = "hab14platB";
    otroC = "hab14platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction14B(event) {
@@ -729,12 +729,12 @@ function pressReaction14B(event) {
    otroC = "hab14platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction14C(event) {
@@ -745,12 +745,12 @@ function pressReaction14C(event) {
    otroC = "hab14platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -762,12 +762,12 @@ function pressReaction15A(event) {
    otroB = "hab15platB";
    otroC = "hab15platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction15B(event) {
@@ -777,12 +777,12 @@ function pressReaction15B(event) {
    otroB = "hab15platB";
    otroC = "hab15platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction15C(event) {
@@ -793,12 +793,12 @@ function pressReaction15C(event) {
    otroC = "hab15platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 // - - - - - - - - - - - - Functions ROW 16/20 - - - - - - - - - - - -
@@ -810,12 +810,12 @@ function pressReaction16A(event) {
    otroB = "hab16platB";
    otroC = "hab16platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction16B(event) {
@@ -826,12 +826,12 @@ function pressReaction16B(event) {
    otroC = "hab16platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction16C(event) {
@@ -842,12 +842,12 @@ function pressReaction16C(event) {
    otroC = "hab16platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -859,12 +859,12 @@ function pressReaction17A(event) {
    otroB = "hab17platB";
    otroC = "hab17platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction17B(event) {
@@ -875,12 +875,12 @@ function pressReaction17B(event) {
    otroC = "hab17platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction17C(event) {
@@ -891,12 +891,12 @@ function pressReaction17C(event) {
    otroC = "hab17platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -908,12 +908,12 @@ function pressReaction18A(event) {
    otroB = "hab18platB";
    otroC = "hab18platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction18B(event) {
@@ -924,12 +924,12 @@ function pressReaction18B(event) {
    otroC = "hab18platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction18C(event) {
@@ -939,12 +939,12 @@ function pressReaction18C(event) {
    otroB = "hab18platB";
    otroC = "hab18platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -956,12 +956,12 @@ function pressReaction19A(event) {
    otroB = "hab19platB";
    otroC = "hab19platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction19B(event) {
@@ -971,12 +971,12 @@ function pressReaction19B(event) {
    otroB = "hab19platB";
    otroC = "hab19platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction19C(event) {
@@ -987,12 +987,12 @@ function pressReaction19C(event) {
    otroC = "hab19platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1004,12 +1004,12 @@ function pressReaction20A(event) {
    otroB = "hab20platB";
    otroC = "hab20platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction20B(event) {
@@ -1020,12 +1020,12 @@ function pressReaction20B(event) {
    otroC = "hab20platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction20C(event) {
@@ -1036,12 +1036,12 @@ function pressReaction20C(event) {
    otroC = "hab20platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 // - - - - - - - - - - - - Functions ROW 21/25 - - - - - - - - - - - -
@@ -1053,12 +1053,12 @@ function pressReaction21A(event) {
    otroB = "hab21platB";
    otroC = "hab21platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction21B(event) {
@@ -1069,12 +1069,12 @@ function pressReaction21B(event) {
    otroC = "hab21platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction21C(event) {
@@ -1084,12 +1084,12 @@ function pressReaction21C(event) {
    otroB = "hab21platB";
    otroC = "hab21platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1101,12 +1101,12 @@ function pressReaction22A(event) {
    otroB = "hab22platB";
    otroC = "hab22platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction22B(event) {
@@ -1117,12 +1117,12 @@ function pressReaction22B(event) {
    otroC = "hab22platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction22C(event) {
@@ -1133,12 +1133,12 @@ function pressReaction22C(event) {
    otroC = "hab22platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1150,12 +1150,12 @@ function pressReaction23A(event) {
    otroB = "hab23platB";
    otroC = "hab23platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction23B(event) {
@@ -1165,12 +1165,12 @@ function pressReaction23B(event) {
    otroB = "hab23platB";
    otroC = "hab23platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction23C(event) {
@@ -1180,12 +1180,12 @@ function pressReaction23C(event) {
    otroB = "hab23platB";
    otroC = "hab23platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1197,12 +1197,12 @@ function pressReaction24A(event) {
    otroB = "hab24platB";
    otroC = "hab24platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction24B(event) {
@@ -1213,12 +1213,12 @@ function pressReaction24B(event) {
    otroC = "hab24platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction24C(event) {
@@ -1228,12 +1228,12 @@ function pressReaction24C(event) {
    otroB = "hab24platB";
    otroC = "hab24platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1245,12 +1245,12 @@ function pressReaction25A(event) {
    otroB = "hab25platB";
    otroC = "hab25platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction25B(event) {
@@ -1261,12 +1261,12 @@ function pressReaction25B(event) {
    otroC = "hab25platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction25C(event) {
@@ -1276,12 +1276,12 @@ function pressReaction25C(event) {
    otroB = "hab25platB";
    otroC = "hab25platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 // - - - - - - - - - - - - Functions ROW 25/30 - - - - - - - - - - - -
@@ -1293,12 +1293,12 @@ function pressReaction26A(event) {
    otroB = "hab26platB";
    otroC = "hab26platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction26B(event) {
@@ -1308,12 +1308,12 @@ function pressReaction26B(event) {
    otroB = "hab26platB";
    otroC = "hab26platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction26C(event) {
@@ -1324,12 +1324,12 @@ function pressReaction26C(event) {
    otroC = "hab26platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1340,12 +1340,12 @@ function pressReaction27A(event) {
    otroB = "hab27platB";
    otroC = "hab27platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction27B(event) {
@@ -1356,12 +1356,12 @@ function pressReaction27B(event) {
    otroC = "hab27platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction27C(event) {
@@ -1372,12 +1372,12 @@ function pressReaction27C(event) {
    otroC = "hab27platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1388,12 +1388,12 @@ function pressReaction28A(event) {
    otroB = "hab28platB";
    otroC = "hab28platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction28B(event) {
@@ -1404,12 +1404,12 @@ function pressReaction28B(event) {
    otroC = "hab28platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction28C(event) {
@@ -1419,12 +1419,12 @@ function pressReaction28C(event) {
    otroB = "hab28platB";
    otroC = "hab28platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1436,12 +1436,12 @@ function pressReaction29A(event) {
    otroB = "hab29platB";
    otroC = "hab29platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction29B(event) {
@@ -1452,12 +1452,12 @@ function pressReaction29B(event) {
    otroC = "hab29platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction29C(event) {
@@ -1467,12 +1467,12 @@ function pressReaction29C(event) {
    otroB = "hab29platB";
    otroC = "hab29platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1484,12 +1484,12 @@ function pressReaction30A(event) {
    otroB = "hab30platB";
    otroC = "hab30platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction30B(event) {
@@ -1500,12 +1500,12 @@ function pressReaction30B(event) {
    otroC = "hab30platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction30C(event) {
@@ -1515,12 +1515,12 @@ function pressReaction30C(event) {
    otroB = "hab30platB";
    otroC = "hab30platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 // - - - - - - - - - - - - Functions ROW 31/33 - - - - - - - - - - - -
@@ -1532,12 +1532,12 @@ function pressReaction31A(event) {
    otroB = "hab31platB";
    otroC = "hab31platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction31B(event) {
@@ -1548,12 +1548,12 @@ function pressReaction31B(event) {
    otroC = "hab31platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction31C(event) {
@@ -1564,12 +1564,12 @@ function pressReaction31C(event) {
    otroC = "hab31platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1580,12 +1580,12 @@ function pressReaction32A(event) {
    otroB = "hab32platB";
    otroC = "hab32platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction32B(event) {
@@ -1595,12 +1595,12 @@ function pressReaction32B(event) {
    otroB = "hab32platB";
    otroC = "hab32platC";
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction32C(event) {
@@ -1610,12 +1610,12 @@ function pressReaction32C(event) {
    otroB = "hab32platB";
    otroC = "hab32platC";
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 
@@ -1627,12 +1627,12 @@ function pressReaction33A(event) {
    otroB = "hab33platB";
    otroC = "hab33platC";
 
-   createFunction1(event);
-   createFunction2(event);
+   setStarter1(event);
+   setStarter2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction33B(event) {
@@ -1643,12 +1643,12 @@ function pressReaction33B(event) {
    otroC = "hab33platC";
 
 
-   createFunction3(event);
-   createFunction4(event);
+   setMain1(event);
+   setMain2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 function pressReaction33C(event) {
@@ -1659,12 +1659,12 @@ function pressReaction33C(event) {
    otroC = "hab33platC";
 
 
-   createFunction5(event);
-	createFunction6(event);
+   setDessert1(event);
+	setDessert2(event);
 
-	createFunction7(event);
-	createFunction8(event);
-	createFunction9(event);
+	globalDelete(event);
+	globalAbsolute(event);
+	globalTurmix(event);
 }
 
 // - - - - - - - - - - - - Print Function - - - - - - - - - - - -
