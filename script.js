@@ -124,7 +124,6 @@ function pressReaction1C(event) {
 
 
 
-
 function pressReaction2A(event) {
    actual = "hab2platA";
 
@@ -161,6 +160,54 @@ function pressReaction2C(event) {
    otroA = "hab2platA";
    otroB = "hab2platB";
    otroC = "hab2platC";
+
+   createFunction5(event);
+	createFunction6(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+
+
+
+function pressReaction3A(event) {
+   actual = "hab3platA";
+
+   otroA = "hab3platA";
+   otroB = "hab3platB";
+   otroC = "hab3platC";
+
+   createFunction1(event);
+   createFunction2(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction3B(event) {
+   actual = "hab3platB";
+
+   otroA = "hab3platA";
+   otroB = "hab3platB";
+   otroC = "hab3platC";
+
+   createFunction3(event);
+   createFunction4(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction3C(event) {
+   actual = "hab3platC";
+
+   otroA = "hab3platA";
+   otroB = "hab3platB";
+   otroC = "hab3platC";
 
    createFunction5(event);
 	createFunction6(event);
