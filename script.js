@@ -264,3 +264,50 @@ function pressReaction4C(event) {
 	createFunction8(event);
 	createFunction9(event);
 }
+
+
+
+function pressReaction5A(event) {
+   actual = "hab5platA";
+
+   otroA = "hab5platA";
+   otroB = "hab5platB";
+   otroC = "hab5platC";
+
+   createFunction1(event);
+   createFunction2(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction5B(event) {
+   actual = "hab5platB";
+
+   otroA = "hab5platA";
+   otroB = "hab5platB";
+   otroC = "hab5platC";
+
+   createFunction3(event);
+   createFunction4(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction5C(event) {
+   actual = "hab5platC";
+
+   otroA = "hab5platA";
+   otroB = "hab5platB";
+   otroC = "hab5platC";
+
+   createFunction5(event);
+	createFunction6(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
