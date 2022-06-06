@@ -57,6 +57,16 @@ function createFunction7(event){
    }
 }
 
+function createFunction8(event){
+
+   if (event.keyCode == 56) {
+      document.getElementById(otroA).innerHTML = "Absolute";
+      document.getElementById(otroB).innerHTML = "Absolute";
+      document.getElementById(otroC).innerHTML = "Absolute";
+      
+   }
+}
+
 function pressReaction1A(event) {
    actual = "hab1platA"; // select "actual" cell
 
@@ -68,6 +78,7 @@ function pressReaction1A(event) {
    createFunction2(event);
 
    createFunction7(event);
+   createFunction8(event);
 }
 
 function pressReaction1B(event) {
@@ -81,6 +92,7 @@ function pressReaction1B(event) {
    createFunction4(event);
 
    createFunction7(event);
+   createFunction8(event);
 }
 
 function pressReaction1C(event) {
@@ -94,4 +106,5 @@ function pressReaction1C(event) {
 	createFunction6(event);
 
    createFunction7(event);
+   createFunction8(event);
 }
