@@ -1221,7 +1221,7 @@ function pressReaction24C(event) {
 
    otroA = "hab24platA";
    otroB = "hab24platB";
-   otroC = "habvplatC";
+   otroC = "hab24platC";
 
    createFunction5(event);
 	createFunction6(event);
