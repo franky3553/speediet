@@ -73,13 +73,25 @@ function pressReaction1A(event) {
 function pressReaction1B(event) {
    actual = "hab1platB";
 
+   otroA = "hab1platA";
+   otroB = "hab1platB";
+   otroC = "hab1platC";
+
    createFunction3(event);
    createFunction4(event);
+
+   createFunction7(event);
 }
 
 function pressReaction1C(event) {
    actual = "hab1platC";
 
+   otroA = "hab1platA";
+   otroB = "hab1platB";
+   otroC = "hab1platC";
+
    createFunction5(event);
 	createFunction6(event);
+
+   createFunction7(event);
 }
