@@ -77,6 +77,8 @@ function createFunction9(event){
    }
 }
 
+// - - - - - - - - - - - - Functions ROW 1/5 - - - - - - - - - - - -
+
 function pressReaction1A(event) {
    actual = "hab1platA"; // select "actual" cell
 
@@ -168,7 +170,6 @@ function pressReaction2C(event) {
 	createFunction8(event);
 	createFunction9(event);
 }
-
 
 
 
@@ -312,7 +313,7 @@ function pressReaction5C(event) {
 	createFunction9(event);
 }
 
-
+// - - - - - - - - - - - - Functions ROW 6/10 - - - - - - - - - - - -
 
 function pressReaction6A(event) {
    actual = "hab6platA";
@@ -551,6 +552,8 @@ function pressReaction10C(event) {
 	createFunction8(event);
 	createFunction9(event);
 }
+
+// - - - - - - - - - - - - Functions ROW 11/15 - - - - - - - - - - - -
 
 function pressReaction11A(event) {
    actual = "hab11platA";
