@@ -47,11 +47,27 @@ function createFunction6(event){
    }
 }
 
+function createFunction7(event){
+
+   if (event.keyCode == 55) {
+      document.getElementById(otroA).innerHTML = "   ";
+      document.getElementById(otroB).innerHTML = "   ";
+      document.getElementById(otroC).innerHTML = "   ";
+      
+   }
+}
+
 function pressReaction1A(event) {
    actual = "hab1platA"; // select "actual" cell
 
+   otroA = "hab1platA";
+   otroB = "hab1platB";
+   otroC = "hab1platC";
+
    createFunction1(event);
    createFunction2(event);
+
+   createFunction7(event);
 }
 
 function pressReaction1B(event) {
