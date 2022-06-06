@@ -67,6 +67,16 @@ function createFunction8(event){
    }
 }
 
+function createFunction9(event){
+
+   if (event.keyCode == 57) {
+      document.getElementById(otroA).innerHTML = "Turmix";
+      document.getElementById(otroB).innerHTML = "Turmix";
+      document.getElementById(otroC).innerHTML = "Turmix";
+      
+   }
+}
+
 function pressReaction1A(event) {
    actual = "hab1platA"; // select "actual" cell
 
@@ -79,6 +89,7 @@ function pressReaction1A(event) {
 
    createFunction7(event);
    createFunction8(event);
+   createFunction9(event);
 }
 
 function pressReaction1B(event) {
@@ -93,6 +104,7 @@ function pressReaction1B(event) {
 
    createFunction7(event);
    createFunction8(event);
+   createFunction9(event);
 }
 
 function pressReaction1C(event) {
@@ -107,4 +119,5 @@ function pressReaction1C(event) {
 
    createFunction7(event);
    createFunction8(event);
+   createFunction9(event);
 }
