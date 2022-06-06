@@ -1661,3 +1661,9 @@ function pressReaction33C(event) {
 	createFunction8(event);
 	createFunction9(event);
 }
+
+// - - - - - - - - - - - - Print Function - - - - - - - - - - - -
+
+function printFunction() { 
+   window.print(); 
+ }
