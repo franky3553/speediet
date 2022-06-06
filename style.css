@@ -38,3 +38,15 @@ th{
    padding: 3px 3px 3px 3px;
    font-size: 11px;
 }
+
+.inputContainer {
+   position: relative;
+   width: 100%;
+}
+
+.alwaysDisplay{
+   display: block;
+   position: absolute;
+   top: 3px;
+   margin: 0px 0px 3px 3px;
+}
