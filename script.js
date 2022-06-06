@@ -30,6 +30,23 @@ function createFunction4(event){
    }
 }
 
+function createFunction5(event){
+
+   if (event.keyCode == 53) {
+      let dessert1 = document.getElementById("dessert1").value;
+      document.getElementById(actual).innerHTML = dessert1;
+   }
+}
+
+
+function createFunction6(event){
+
+   if (event.keyCode == 54) {
+      let dessert2 = document.getElementById("dessert2").value;
+      document.getElementById(actual).innerHTML = dessert2;
+   }
+}
+
 function pressReaction1A(event) {
    actual = "hab1platA"; // select "actual" cell
 
@@ -42,4 +59,11 @@ function pressReaction1B(event) {
 
    createFunction3(event);
    createFunction4(event);
+}
+
+function pressReaction1C(event) {
+   actual = "hab1platC";
+
+   createFunction5(event);
+	createFunction6(event);
 }
