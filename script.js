@@ -1,3 +1,6 @@
+
+// - - - - - - - - - - - - setPlates Functions - - - - - - - - - - - -
+
 function createFunction1(event){
 
    if (event.keyCode == 53) {
@@ -46,6 +49,8 @@ function createFunction6(event){
       document.getElementById(actual).innerHTML = dessert2;
    }
 }
+
+// - - - - - - - - - - - - global Functions - - - - - - - - - - - -
 
 function createFunction7(event){
 
