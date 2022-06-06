@@ -121,3 +121,51 @@ function pressReaction1C(event) {
    createFunction8(event);
    createFunction9(event);
 }
+
+
+
+
+function pressReaction2A(event) {
+   actual = "hab2platA";
+
+   otroA = "hab2platA";
+   otroB = "hab2platB";
+   otroC = "hab2platC";
+
+   createFunction1(event);
+   createFunction2(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction2B(event) {
+   actual = "hab2platB";
+
+   otroA = "hab2platA";
+   otroB = "hab2platB";
+   otroC = "hab2platC";
+
+   createFunction3(event);
+   createFunction4(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction2C(event) {
+   actual = "hab2platC";
+
+   otroA = "hab2platA";
+   otroB = "hab2platB";
+   otroC = "hab2platC";
+
+   createFunction5(event);
+	createFunction6(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
