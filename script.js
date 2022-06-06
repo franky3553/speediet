@@ -1038,3 +1038,243 @@ function pressReaction20C(event) {
 	createFunction8(event);
 	createFunction9(event);
 }
+
+// - - - - - - - - - - - - Functions ROW 21/25 - - - - - - - - - - - -
+
+function pressReaction21A(event) {
+   actual = "hab21platA";
+
+   otroA = "hab21platA";
+   otroB = "hab21platB";
+   otroC = "hab21platC";
+
+   createFunction1(event);
+   createFunction2(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction21B(event) {
+   actual = "hab21platB";
+
+   otroA = "hab21platA";
+   otroB = "hab21platB";
+   otroC = "hab21platC";
+
+
+   createFunction3(event);
+   createFunction4(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction21C(event) {
+   actual = "hab21platC";
+
+   otroA = "hab21platA";
+   otroB = "hab21platB";
+   otroC = "hab21platC";
+
+   createFunction5(event);
+	createFunction6(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+
+
+function pressReaction22A(event) {
+   actual = "hab22platA";
+
+   otroA = "hab22platA";
+   otroB = "hab22platB";
+   otroC = "hab22platC";
+
+   createFunction1(event);
+   createFunction2(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction22B(event) {
+   actual = "hab22platB";
+
+   otroA = "hab22platA";
+   otroB = "hab22platB";
+   otroC = "hab22platC";
+
+
+   createFunction3(event);
+   createFunction4(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction22C(event) {
+   actual = "hab22platC";
+
+   otroA = "hab22platA";
+   otroB = "hab22platB";
+   otroC = "hab22platC";
+
+
+   createFunction5(event);
+	createFunction6(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+
+
+function pressReaction23A(event) {
+   actual = "hab23platA";
+
+   otroA = "hab23platA";
+   otroB = "hab23platB";
+   otroC = "hab23platC";
+
+   createFunction1(event);
+   createFunction2(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction23B(event) {
+   actual = "hab23platB";
+
+   otroA = "hab23platA";
+   otroB = "hab23platB";
+   otroC = "hab23platC";
+
+   createFunction3(event);
+   createFunction4(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction23C(event) {
+   actual = "hab23platC";
+
+   otroA = "hab23platA";
+   otroB = "hab23platB";
+   otroC = "hab23platC";
+
+   createFunction5(event);
+	createFunction6(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+
+
+function pressReaction24A(event) {
+   actual = "hab24platA";
+
+   otroA = "hab24platA";
+   otroB = "hab24platB";
+   otroC = "hab24platC";
+
+   createFunction1(event);
+   createFunction2(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction24B(event) {
+   actual = "hab24platB";
+
+   otroA = "hab24platA";
+   otroB = "hab24platB";
+   otroC = "hab24platC";
+
+
+   createFunction3(event);
+   createFunction4(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction24C(event) {
+   actual = "hab24platC";
+
+   otroA = "hab24platA";
+   otroB = "hab24platB";
+   otroC = "habvplatC";
+
+   createFunction5(event);
+	createFunction6(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+
+
+function pressReaction25A(event) {
+   actual = "hab25platA";
+
+   otroA = "hab25platA";
+   otroB = "hab25platB";
+   otroC = "hab25platC";
+
+   createFunction1(event);
+   createFunction2(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction25B(event) {
+   actual = "hab25platB";
+
+   otroA = "hab25platA";
+   otroB = "hab25platB";
+   otroC = "hab25platC";
+
+
+   createFunction3(event);
+   createFunction4(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
+
+function pressReaction25C(event) {
+   actual = "hab25platC";
+
+   otroA = "hab25platA";
+   otroB = "hab25platB";
+   otroC = "hab25platC";
+
+   createFunction5(event);
+	createFunction6(event);
+
+	createFunction7(event);
+	createFunction8(event);
+	createFunction9(event);
+}
