@@ -32,3 +32,9 @@ input {
    top: 3px;
    margin: 0px 0px 3px 3px;
 }
+
+th{
+   background-color: lightGrey;
+   padding: 3px 3px 3px 3px;
+   font-size: 11px;
+}
