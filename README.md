@@ -49,3 +49,20 @@
 * Instantly have the diet sheet on paper, ready to take with you
 * ![image](https://im5.ezgif.com/tmp/ezgif-5-0af1e47ae3.gif)
 
+### 🚀How to Run SpeeDiet
+* Open: 
+
+
+### 📝Todo
+
+Browsing with ttt is not the best way
+-   Add navigation through direction arrows
+
+### 📈Future Plans
+
+It would be interesting to apply the same methodology to other aspects of the patient, such as the evolution of symptoms, wound care...
+
+- Create other variations of SpeeDiet
+- Connect SpeeDiet variations
+- Create login and save systems
+
