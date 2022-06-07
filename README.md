@@ -14,6 +14,7 @@
 
 <div align="center">
 > Write menu, press plate key and fill the diet like lightning!
+> Deployed link: https://franky3553.github.io/speediet/
 </div>
 
 ### 🧐Why SpeeDiet list
@@ -50,8 +51,7 @@
 * ![image](https://im5.ezgif.com/tmp/ezgif-5-0af1e47ae3.gif)
 
 ### 🚀How to Run SpeeDiet
-* Open: 
-
+* Open: https://franky3553.github.io/speediet/
 
 ### 📝Todo
 
