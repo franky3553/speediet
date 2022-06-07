@@ -66,3 +66,16 @@ It would be interesting to apply the same methodology to other aspects of the pa
 - Connect SpeeDiet variations
 - Create login and save systems
 
+### Other
+## Technologies
+HTML & CSS & JavaScript
+
+## Testing
+* This page Works in Chrome, Firefox and Opera browsers
+
+## Validator Testing
+* HTML - W3C Validator PASSED
+* CSS - jigsaw Validator PASSED
+
+### 👋End Note
+It has been a pleasure developing this project.
